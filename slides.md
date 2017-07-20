@@ -34,16 +34,16 @@ We are highly reactive as a team, responding to prod support issues with the hig
 
 --
 
-### To provide structure to our project work
+### To provide formal structure to our project work
 
-Lack of structure has been identified as a major obstacle to quality and timeliness of our current project work.
+Our informal project structure has been identified as a major obstacle to quality and timeliness of our current project work.
 
 --
 
 ### To actively involve cross-LOB units in development projects
 
 
-Getting feedback from different areas of the business is important. We can do better with involving Client and Partner Experience in our day to day work.
+Understanding the needs and goals of different areas of the business is important. We can do better with involving Client and Partner Experience in our day to day work.
 
 ---
 
