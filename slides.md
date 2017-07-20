@@ -224,3 +224,16 @@ This is an opportunity for each team to ensure they are aware of what everyone e
 The CTO meets with the Dev Leads plus BA to ensure that there is transparency on upcoming priorities and projects.
 
 This is also where the Leads communicate concerns upwards
+
+## First Steps
+
+### Tactical
+
+Finish outstanding Chargify migration work
+
+### Strategic
+
+Two critical projects:
+
+- On-boarding (Solotel) - Better TaxFileNumber support, Checklist detail enforcement, and Super details.
+- Deloitte Enhancements - Enabling integration with System Sign-On, Customisation, Theming, and other work.
