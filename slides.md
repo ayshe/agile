@@ -225,11 +225,19 @@ The CTO meets with the Dev Leads plus BA to ensure that there is transparency on
 
 This is also where the Leads communicate concerns upwards
 
+---
+
 ## First Steps
+
+Where should we begin?
+
+--
 
 ### Tactical
 
 Finish outstanding Chargify migration work
+
+--
 
 ### Strategic
 
