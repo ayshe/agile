@@ -1,90 +1,96 @@
-# Development team structure
+# Development Team Structure
 
 ---
 
-## Notes on terminology
+## Notes on Terminology
 
-- *BAU* - Business as usual
-- *Prod support* - Developer activities required for BAU
-- *Critical path* - The sequencing and delivery timeframes for work
-- *LOB* - Line of business 
-
----
-
-## What are the goals of this proposed change
-
-- So that we can better plan and execute
-- To protect our critical path from BAU
-- To provide structure to our project work
-- To actively involve cross-LOB units in development projects
+- *BAU* - Business as Usual
+- *Prod Support* - Developer activities required for BAU
+- *Critical Path* - Sequencing and delivery time frames
+- *LOB* - Line of Business 
 
 ---
 
-### So that we can better plan and execute
+## Goals Of This Proposed Change
 
-Projects have a lifcycle, with stakeholders and specific accountability
+- Improve project execution and planning
+- Protect our critical path from BAU
+- Provide structure to our project work
+- Actively involve other LOBs in projects
 
-We need to be better at knowing who can make decisions, who must be consulted, who is accountable for each part of the project and who will do what work
+---
+
+### Improve Project Execution and Planning
+
+Projects have a life cycle, with stakeholders and specific accountabilities
+
+We need to be better at identifying who:
+
+- Can make decisions
+- Must be consulted
+- Is responsible for different parts of the project
+- Will do what work
 
 --
 
-### To protect our critical path from BAU
+### Protect Our Critical Path From BAU
 
-We are highly reactive as a team, responding to prod support issues with the highest urgency, which is often appropriate. However, this means that our critical path is neglected, and strategic projects do not get completed.
+
+As a team, we are highly reactive, responding to prod support issues with the highest urgency, which is often appropriate. However, this means that our critical path is neglected, and strategic projects do not get completed.
 
 --
 
-### To provide formal structure to our project work
+### Provide Structure To Our Project Work
 
 Our informal project structure has been identified as a major obstacle to quality and timeliness of our current project work.
 
 --
 
-### To actively involve cross-LOB units in development projects
+### Actively Involve Other LOBs In Projects
 
-
-Understanding the needs and goals of different areas of the business is important. We can do better with involving Client and Partner Experience in our day to day work.
+Understanding the needs and goals of different business areas is important. We should actively involve other areas, such as Client and Partner Experience.
 
 ---
 
-# Two teams
-## Two concurrent streams of work
+## Two Parallel Streams Of Work
+
+Two parallel teams, running in cycles of up to 6 weeks.
 
 - Tactical
 - Strategic
 
-Project cycles will run in 6 week increments.
-
 ---
 
-## The Tactical team
+## The Tactical Team
 
-This team is the most similar to how we currently work. Tactical projects are those that are needed in the short to immediate term, and include prod support activities.
+The most similar to how we currently work.
 
-Tactical projects are shorter cycle, 2-3 weeks at a time
+Tactical projects are ones needed in the short to immediate term, and includes production support activities.
+
+Tactical projects run in shorter cycles of 2-3 weeks.
 
 --
 
-### Examples of tactical projects
+### Examples Of Tactical Projects
 
 - Marketing and SEO updates to the public website
 - Bugfixes
 - Incremental improvements to the UI (#quickwins)
 - Postgres upgrade
 
-The Tactical team are altruists. Their main job is to help the business operate smoothly.
+The Tactical team are Boy Scouts. Their main focus is helping the business operate smoothly.
 
 --
 
-## The Strategic team
+## The Strategic Team
 
-This team is protected as much as possible from BAU, and represents the work that is on the critical path.
+This team is protected as much as possible from BAU, a work that is on the critical path.
 
 Strategic projects are no longer than 6 weeks
 
 --
 
-### Examples of strategic projects
+### Examples Of Strategic Projects
 
 - OpenAPI modules
 - React MVC replacement for Struts/Tiles
@@ -94,59 +100,56 @@ The strategic team work mostly in the areas of major improvements, refactoring, 
 
 ---
 
-## So, which team am I on?
+## Roles (Per Team)
 
-It will vary depending on many factors such as
+<dl>
+  <dt>Product Owner</dt>
+  <dd>Directs the team to produce the agreed solution, and is the representative of the business and clients
+  </dd>
 
-- Subject matter expertise
-- How long you have been in a particular team
-- Staffing requirements
+  <dt>Team Lead</dt>
+  <dd>Responsible for the technical delivery, including co-ordinating other developers</dd>
 
+  <dt>Developers</dt>
+  <dd>Responsible for architecture and delivery of individual components</dd>
+</dl>
 
 --
 
-## Personal preference is a factor
+### Cross-team roles
 
-If you are interested in a particular project, or you would prefer not to work on one let your team lead know
+<dl>
+<dt>Product Manager</dt>
+<dd> Person who has sign-off for the product. Generally a person from the leadership team, who is responsible for the overall strategic content of the product as a whole. They have direct oversight of the Product Owner</dd>
 
-Team leads don't have to be the same people for a project every time
+<dt>Technical Architect</dt>
+<dd> The back end lead (or delegate) who is responsible for the solution architecture as it fits within the larger product roadmap</dd>
+</dl>
 
-It's okay to have preferences, and over time we should all do the things we like, as well as the things we must do for the team
+--
+
+### Cross-team roles (continued)
+
+<dl>
+<dt>User Experience Developer</dt>
+<dd> The front end lead (or delegate) who is responsible for the user experience as it fits within the overall interaction designs</dd>
+
+<dt>Additional Stakeholders</dt>
+<dd> Interested parties such as Client Experience, Partner Manager, as required (varies depending on project)</dd>
+
+<dt>User Acceptance Team</dt>
+<dd> Additional Stakeholders plus the Tester and Business Analyst, who perform testing to support final sign-off</dd>
+</dl>
 
 ---
 
-## Roles
-
-Within each team
-
-- Product owner: Person who directs the team to produce the agreed solution, and is the representative of the business and clients
--  Team Lead: Person who is responsible for the technical delivery, including co-ordinating the other developers
--  Developers: Persons responsible for architecture and delivery of individual components
-
---
-
-Cross-team roles
-
-- Product Manager: Person who has sign-off for the product. Generally a person from the leadership team, who is responsible for the overall strategic content of the product as a whole. They have direct oversight of the Product Owner
-- Technical Architect: The back end lead (or delegate) who is responsible for the solution architecture as it fits within the larger product roadmap
-
---
-
-Cross-team roles (continued)
-
-- User Experience Developer: The front end lead (or delegate) who is responsible for the user experience as it fits within the overall interaction designs
-- Additional Stakeholders: Interested parties such as Client Experience, Partner Manager, as required (varies depending on project)
-- User Acceptance Team: Additional Stakeholders plus the Tester and Business Analyst, who perform testing to support final sign-off
-
----
-
-## Formalised, scheduled meetings
+## Formalised, Scheduled Meetings
 
 A meeting has a purpose.
 
 --
 
-## Typical project kick-off meeting
+## Typical Project Kick-Off Meeting
 
 - Product Manager
 - Product Owner
@@ -159,13 +162,11 @@ A meeting has a purpose.
 
 ## Daily Project Stand-Up
 
-(Replaces current stand-up)
-
 - Product Owner
 - Developers
-- BA & Test team (Optional)
+- BA & Test Team (Optional)
 - Additional Stakeholders (Optional)
-- Other team (Optional)
+- Other Stream (Optional)
 
 --
 
@@ -179,7 +180,7 @@ A meeting has a purpose.
 - BA & Test
 - Additional Stakeholders (optional)
 
-A showcase is where we demonstrate to the rest of the business all of the work that has been completed during a cycle.
+A demonstration to the rest of the business all of the work that has been completed during a cycle.
 
 --
 
@@ -191,25 +192,29 @@ A showcase is where we demonstrate to the rest of the business all of the work t
 - BA & Test
 - Additional Stakeholders (optional)
 
-The retrospective is an analysis of what did and did not work during a project cycle.
+An analysis of what did and didn't work during a cycle.
 
 --
 
-## Retrospective (End-Of Cycle) - continued
+## Retrospective (End-Of Cycle) - Continued
 
-We should embrace the notion of iterative improvement. This is the forum to raise possible changes or process 'experiments', which can be condcuted during the next cycle. Previously agreed and trialled processes should be reviewed at the end of the retrospective.
+We should embrace iterative improvement. This is the place propose changes or process 'experiments', which can be conducted during the next cycle.
+
+Implemented changes are reviewed in the next retrospective.
 
 --
 
-## Retrospective (End-Of Cycle) - continued
+## Retrospective (End-Of Cycle) - Continued
 
-This should be about not just what went wrong, but also about also what went well. It is about **what can we do better** - not a sledging match; but people should be comfortable raising and receiving any feedback. It is a critical opportunity for growth.
+This is about not just what went wrong, but also about also what went well.
+
+It is about **what can we do better** and provides a critical opportunity for growth. It is not about pointing fingers or sledging.
 
 --
 
 ## Weekly Technical Catch-Up
 
-(current practice)
+(Current Practice)
 
 This is when the front-end or back-end team meets in full to discuss all projects, work, blockers and upcoming work. Option to share any cool or interesting technology.
 
@@ -219,7 +224,7 @@ This is an opportunity for each team to ensure they are aware of what everyone e
 
 ## Weekly Dev Leads Meeting
 
-(current practice)
+(Current Practice)
 
 The CTO meets with the Dev Leads plus BA to ensure that there is transparency on upcoming priorities and projects.
 
@@ -235,13 +240,13 @@ Where should we begin?
 
 ### Tactical
 
-Finish outstanding Chargify migration work
+Finish remaining Chargify Migration work
 
 --
 
 ### Strategic
 
-Two critical projects:
-
-- On-boarding (Solotel) - Better TaxFileNumber support, Checklist detail enforcement, and Super details.
-- Deloitte Enhancements - Enabling integration with System Sign-On, Customisation, Theming, and other work.
+Deloitte Enhancements:
+- Enabling integration with System Sign-On
+- Customisation
+- Theming, and other work.

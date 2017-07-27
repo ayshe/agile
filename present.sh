@@ -1,2 +1,2 @@
 #!/bin/sh
-reveal-md slides.md --vertical-separator='--' --theme solarized
+reveal-md ${1:-slides.md} --vertical-separator='--' --theme solarized
